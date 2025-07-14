@@ -1,39 +1,22 @@
 @charset "utf-8";
 body {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1in;
-    margin-bottom: 1in;
-    font-family: "Times New Roman";
-    max-width: 8.5in;
-}
-
-a:link {
-  text-decoration: none;
-	color: black;
-}
-
-a:visited {
-  text-decoration: none;
-	color: black;
-}
-
-a:hover {
-  text-decoration: none;
-	color: black;
-}
-
-a:active {
-  text-decoration: none;
-	color: black;
-}
-
-p {
+  margin: 1in;
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;  
   line-height: 1.5;
-	margin: 0 0;
+  display: flex;
+  justify-content: center;
 }
 
-ul {
-  line-height: 1.5;
+main {
+  max-width: 6.5in;
+}
+
+a {
+  text-decoration: none;
+	color: black;
+}
+
+p, ul, ol, li {
 	margin: 0 0;
 }
